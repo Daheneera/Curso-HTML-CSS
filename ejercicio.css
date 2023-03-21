@@ -1,0 +1,12 @@
+span.boton::before{
+    content: 'Pasa por encima';
+}
+
+.btn_por_encima:hover{
+    background-color: green;
+    color:white;
+  
+}
+.btn_por_encima::first-line{
+    content:'¡Hecho!'
+}
